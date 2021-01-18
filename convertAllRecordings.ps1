@@ -44,6 +44,7 @@ foreach ($file in $files) {
 
      if ($(UnacceptableTime) -and -Not $dryRun) {
         Write-ConsoleAndLog "Stopping execution due to current time"
+        $skippedFileCount += ($files.Count - $skippedFileCount - $encodedFileCount)
         break
      }
 
