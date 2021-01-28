@@ -24,7 +24,7 @@ function UnacceptableTime {
 }
 
 $dryRun = $false
-$clean = $false
+$clean = $true
 
 $skippedFileCount = 0
 $encodedFileCount = 0
