@@ -1,9 +1,9 @@
 Set-Location -Path Z:\media-tools
-$logFile = "logs\$(Get-Date -Format "yyyyMMdd-hhmmss").log"
+$logFile = "logs\$(Get-Date -Format "yyyyMMdd-HHmmss").log"
 
 
 function TimeStamp {
-    Get-Date -Format "yyyy-MM-dd hh:mm:ss"
+    Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 }
 
 function Write-ConsoleAndLog {
